@@ -1,0 +1,141 @@
+/* ===== Global Reset ===== */
+* {
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, sans-serif;
+}
+
+body {
+  margin: 0;
+  background: #f4f6f8;
+  color: #333;
+}
+
+/* ===== Layout ===== */
+.container {
+  max-width: 600px;
+  margin: 40px auto;
+  background: #fff;
+  padding: 25px;
+  border-radius: 8px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+}
+
+.container-wide {
+  max-width: 1000px;
+}
+
+/* ===== Headings ===== */
+h2 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+h3 {
+  margin-top: 25px;
+  margin-bottom: 10px;
+}
+
+/* ===== Form Elements ===== */
+label {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 6px;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+input:focus {
+  outline: none;
+  border-color: #4f46e5;
+}
+
+/* ===== Buttons ===== */
+button {
+  padding: 10px 16px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+button.primary {
+  background: #4f46e5;
+  color: white;
+}
+
+button.secondary {
+  background: #e5e7eb;
+}
+
+button.danger {
+  background: #dc2626;
+  color: white;
+}
+
+button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+/* ===== Messages ===== */
+.success {
+  color: #16a34a;
+  margin-bottom: 10px;
+}
+
+.error {
+  color: #dc2626;
+  margin-bottom: 10px;
+}
+
+/* ===== Navbar ===== */
+.navbar {
+  background: #111827;
+  color: white;
+  padding: 12px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  margin-right: 15px;
+}
+
+.navbar span {
+  margin-right: 10px;
+}
+
+/* ===== Table ===== */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th,
+td {
+  padding: 12px;
+  border-bottom: 1px solid #ddd;
+  text-align: left;
+}
+
+th {
+  background: #f3f4f6;
+}
+
+/* ===== Pagination ===== */
+.pagination {
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}

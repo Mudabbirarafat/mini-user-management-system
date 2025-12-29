@@ -1,0 +1,6 @@
+{
+  "name": "mini-user-mgmt-backend",
+  "description": "Mini User Management System Backend",
+  "buildCommand": "npm install",
+  "startCommand": "npm start"
+}

@@ -1,0 +1,15 @@
+{
+  "buildCommand": "npm install && npm run build",
+  "envPrefix": "REACT_APP_",
+  "routes": [
+    {
+      "src": "^/api/(?<path>.*)$",
+      "dest": "/api/$path",
+      "methods": ["GET", "POST", "PUT", "PATCH", "DELETE"]
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/index.html"
+    }
+  ]
+}
