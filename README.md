@@ -208,5 +208,13 @@ Role: user
 Admin access:
 
 Create admin manually in DB (role = admin)
+## 🌐 Live Deployment
+
+- **Backend API (Render):**  
+  https://mini-user-management-system.onrender.com
+
+- **Frontend (Vercel):**  
+  https://mini-user-management-system-alpha.vercel.app
+
 
 
